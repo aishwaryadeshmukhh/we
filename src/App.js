@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+//import MyComponent from "./components/MyComponent"; 
+//import DisplayText from "./components/DisplayText";
+import ClassDisplayText from "./components/ClassDisplayText";
+
+//function App() {
+ // return (
+   // <div>
+   //   <h1>Main App</h1>
+   //   <MyComponent /> {/* Using MyComponent */}
+   // </div>
+ // );
+//}
+
+//function App() {
+  //return (
+    //<div>
+      //<h1>React Functional Component Example</h1>
+      //<DisplayText /> {/* Using the functional component */}
+    //</div>
+  //);
+//}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>React Class Component Example</h1>
+      <ClassDisplayText /> {/* Using the class component */}
     </div>
   );
 }
